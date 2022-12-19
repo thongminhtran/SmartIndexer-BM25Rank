@@ -1,0 +1,4 @@
+There are totally 2690 tokens in the SPIMI indexing
+SPIMI indexing takes totally 0.024022340774536133
+Naive indexing takes totally 0.03303122520446777
+SPIMI time process is 1.3750210903460802 times faster than the naive indexer

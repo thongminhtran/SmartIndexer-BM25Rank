@@ -1,0 +1,26 @@
+Project 3 - COMP 479
+Minh Thong Tran
+ID: 40072745
+
+
+Subproject1:
+
+The output will be:
+
+There are totally 2690 tokens in the SPIMI indexing
+SPIMI indexing takes totally 0.024022340774536133
+Naive indexing takes totally 0.03303122520446777
+SPIMI time process is 1.3750210903460802 times faster than the naive indexer
+
+
+Subproject2:
+
+To run subproject 2:
+
+'python subproject2 0' to run all 4 test queries
+
+To run separately each of test:
+`python subproject2 1` for part A: single keyword query
+`python subproject2 2` for part B: BM25
+`python subproject2 3` for part C: AND
+`python subproject2 4` for part D: OR

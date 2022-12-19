@@ -1,0 +1,33 @@
+COMP 479 _ Project 2 _
+Minh Thong Tran
+ID: 40072745
+
+                         --------------------------------------------terms-------------------------------------------------------------
+|                       |       |                      |                     |   number | Δ%                  | T%                  |
+|-----------------------+-------+----------------------+---------------------+----------+---------------------+---------------------|
+| unfiltered            | 72517 |                      |                     |  1579600 |                     |                     |
+| removing_numbers      | 54016 | -25.512638415819744  | -25.512638415819744 |  1461459 | -7.4791719422638625 | -7.4791719422638625 |
+| case_folding          | 47017 | -12.957271919431278  | -35.16416840189197  |  1416153 | -3.100052755499816  | -10.347366421878956 |
+| remove_stop_words_30  | 46988 | -0.06167981793818722 | -35.2041590247804   |  1382305 | -2.390137223873412  | -12.490187389212458 |
+| remove_stop_words_150 | 46988 | -0.0                 | -35.2041590247804   |  1382305 | -0.0                | -12.490187389212458 |
+| stem                  | 34779 | -25.983229760789996  | -52.04021126080781  |  1319778 | -4.523386662133177  | -16.448594580906562 |
+
+
+Using the list of challenge queries ["copper", "Samjens", "Carmark", "Bundesbank"]
+
+
+Subproject 1: Run directly from the IDE
+
+Subproject 2: Run from the command line
+
+python subproject2.py 'query'
+
+For example: python subproject2.py Samjens
+
+Output: The query has been found in 4 documents
+
+['17837', '17863', '18071', '19419']
+
+Subproject 3: Run directly fomr the IDE, it will generate the compression table in compression.txt file
+
+The difference in the results will be: the compression file will have more results thanks to the case_folding
